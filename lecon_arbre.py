@@ -26,6 +26,24 @@ class Noeud:
         self.valeur = gauche
         self.valeur = droite
 
+
+def taille(arbre_binaire):
+    if arbre_binaire.est_vide():
+        return 0
+    else:
+        return 1 + taille(arbre_binaire.sag) + taille(arbre_binaire.sad)
+    
+
+
+def taille(a):
+    if a is None:
+        return 0
+    else:
+        taille_gauche = taille(a.gauche)
+        taille_droite = taille(a.droite)
+
+        return 1 + taille_gauche + taille_droite
+
 print(Noeud)
 
 a = arbre_binaire()
