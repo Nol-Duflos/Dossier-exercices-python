@@ -18,6 +18,15 @@ class arbre_binaire:
             return True
         else:
             return False
+        
+
+class Noeud:
+    def __init__(self, valeur, gauche =  None, droite = None) -> None:
+        self.valeur = valeur
+        self.valeur = gauche
+        self.valeur = droite
+
+print(Noeud)
 
 a = arbre_binaire()
 a.racine = 1

@@ -15,3 +15,14 @@ def taille(arbre_binaire):
         return 0
     else:
         return 1 + taille(arbre_binaire.sag) + taille(arbre_binaire.sad)
+    
+
+
+def taille(a):
+    if a is None:
+        return 0
+    else:
+        taille_gauche = taille(a.gauche)
+        taille_droite = taille(a.droite)
+
+        return 1 + taille_gauche + taille_droite
