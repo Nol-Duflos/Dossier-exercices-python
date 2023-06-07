@@ -17,7 +17,23 @@ dico = {
     3:(65.9, 49.643),
 }
 
-print(dico)
+# print(dico)
+point_to_calc = sum(dico)
+print(point_to_calc)
+
+
+
+x1 = int(input("Entrez un nombre entier : ")) 
+y1= int(input("Entrez un nombre entier : ")) 
+
+x2 = int(input("Entrez un nombre entier : ")) 
+y2 = int(input("Entrez un nombre entier : ")) 
+
+distance = ((x1 - x2)**2 +(y1 - y2)**2)**0.5
+
+# Output le resultat : 
+print("the distance betwenn X ans Y is : " + str(distance))
+
 
 
 # Create distances list to calculate
@@ -48,3 +64,8 @@ def list_distances(nombre_points:int) ->list:
                     print(list_distances)
   
 list_distances(4) # For testing
+
+
+def distance_calc():
+    list_distances = []
+    for i in range(1, )
