@@ -28,3 +28,7 @@ b = (5, 7, 1)
 
 d = get_distance(a, b)
 print(d)
+
+#Il ne faut pas faire le tableau comme on voulais.
+#Prendre les 6 tableaux avec toutes les possibilités
+#Faire le calcul 
