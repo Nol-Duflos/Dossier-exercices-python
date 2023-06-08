@@ -42,5 +42,21 @@ ALLOWED_CHARMAP = ascii_letters + ' !\'.'
 MAXIMUM_FITNESS = LENGTH_OF_EXPECTED_STR
 
 
-def algo_genetique():
-    
+#On déclare une fonction get_random_char() qui retourne un caractère aléatoire, tiré de la liste des caractères autorisés.
+def get_random_char():
+    """Retourne un caractère aléatoire tiré de la liste 'ALLOWED_CHARMAP' """
+    return choix(ALLOWED_CHARMAP)   
+
+#La fonction get_random_individual() retourne un indvidu (un tableau de caractères) 
+#constitué de caractères aléatoires générés par la fonction get_random_char() 
+def get_random_individual():
+    """ Créer un nouvel individu à partir de 'POPULATION_COUNT' """
+    return [get_random_char() for _ in range(LENGTH_OF_EXPECTED_STR)]
+
+def get_random_population():
+    """Retourne une liste d'individu au hasard à partir de 'POPULATION_COUNT'
+       Qui constitura notre population"""
+    return [get_random_individual() for _ in range(POPULATION_COUNT)]
+
+def get_individual_fitness(individual):
+    """Juge le niveau d'adaptation"""

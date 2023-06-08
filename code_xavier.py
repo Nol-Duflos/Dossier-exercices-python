@@ -1,5 +1,5 @@
 # Create distances list to calculate
-def list_distances(nombre_points:int) ->list:
+def list_distances(nombre_points:int) -> list:
     """Create distances list to calculate
 
     Args:

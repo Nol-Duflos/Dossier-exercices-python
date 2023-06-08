@@ -54,3 +54,28 @@
 #     print(nums[3])
 # else:
 #     print(nums[4])
+
+# nums = [4, 7, 3, 1]
+# for x in nums:
+#     print(x*2)
+
+# str = "testing for loops"
+# count = 0
+
+# for x in str:
+#     if x == 't':
+#         count += 1
+
+# print(count)
+
+# text = "some text"
+# for x in text:
+#     if x == 'e':
+#         break
+#     print(x)
+
+list = [2, 3, 4, 5, 6, 7]
+for x in list:
+    if(x%2==1 and x>4):
+        print(x)
+        break

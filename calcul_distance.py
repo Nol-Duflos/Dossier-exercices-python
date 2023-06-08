@@ -15,6 +15,14 @@ distance = ((x1 - x2)**2 +(y1 - y2)**2)**0.5
 #Output le resultat : 
 print("the distance betwenn X ans Y is : " + str(distance))
 
+
+
+
+
+
+
+
+
 def get_distance(c, d):
     somme_differences = 0
     for c_i, d_i in zip(c, d):
