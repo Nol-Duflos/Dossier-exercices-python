@@ -74,8 +74,51 @@
 #         break
 #     print(x)
 
-list = [2, 3, 4, 5, 6, 7]
-for x in list:
-    if(x%2==1 and x>4):
-        print(x)
-        break
+# list = [2, 3, 4, 5, 6, 7]
+# for x in list:
+#     if(x%2==1 and x>4):
+#         print(x)
+#         break
+
+# list = [11, 2, 7, 31, -5, 12, 13, -3]
+# for x in list:
+#     print(x)
+#     if x <= 0:
+#         break
+
+# i = 1
+# while (i <= 10):
+#     print(i)
+#     i = i + 1
+
+# maListe = ["Javascript", "PHP", "Python" ]
+
+# n = len(maListe)
+# for i in range(0 , n):
+#     print(maListe[i])
+#     #Parcours les éléments de ma liste un par un
+
+# maListe = ["Javascript", "PHP", "Python" ]
+# maListe.append("Django") #append() ajoute un élément à la fin de la liste
+
+# print(maListe)
+
+# maListe = ["Javascript", "PHP", "Python" ]
+# maListe.insert(1, "PyGame") #insert() ajoute un élément à un endroit préci de la liste
+
+# print(maListe)
+
+# maListe = ["Javascript", "PHP", "Python", "C++", "C#", "Pygame" ]
+# maListe.remove("PHP")
+
+# print(maListe)
+
+# maListe.pop(1)
+# print(maListe)
+
+# maListe = ["Javascript", "PHP", "Python", "C++", "C#", "Pygame" ]
+# # del maListe[2]
+# # del maListe #Supprime entierement ma liste
+
+# maListe.clear() #Génère une liste vide
+# print(maListe)
