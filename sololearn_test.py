@@ -148,11 +148,38 @@
 # name = input("Ecrivez votre nom : ")
 # print("Bienvenue " + name + " !")
 
-a = int(input("Entrez un nombre : "))
-b = int(input("Entrez un second nombre : "))
-c = a + b
+# a = int(input("Entrez un nombre : "))
+# b = int(input("Entrez un second nombre : "))
+# c = a + b
+# d = [a, b]
+
+# print("la somme de a et b est : " + str(c))
+# print("le nombre le plus haut est ", max(d))
 
 
-print("la somme de a et b est : " + str(c))
+# e = 1
+# for i in range(100):
+#     print("Hello", e)
+#     e = e +1
 
 
+# def nombre_entier(nombreUtilisateur):
+#     if nombreUtilisateur % 2 == 0:
+#         print("Le nombre est pair ! :D")
+
+#     else:
+#         print("Le nombre est impair :)")
+
+# nombre_entier(nombreUtilisateur = int(input("Entrez un nombre entier : ")))
+
+nombre_entier = None
+try:
+    nombre_entier = int(input("Entrez un nombre :  "))
+except ValueError:
+    print("\x1b[31m\x1b[46mJe t'avais dit d'entrer un nombre petit malin >:(\x1b[37m\x1b[0m")
+
+if nombre_entier != None :
+    if (nombre_entier % 2) == 0:
+        print( str(nombre_entier)+" est pair")
+    else :
+        print( str(nombre_entier)+" est impair")
