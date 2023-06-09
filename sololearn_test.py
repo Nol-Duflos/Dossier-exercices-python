@@ -117,8 +117,42 @@
 # print(maListe)
 
 # maListe = ["Javascript", "PHP", "Python", "C++", "C#", "Pygame" ]
-# # del maListe[2]
-# # del maListe #Supprime entierement ma liste
-
-# maListe.clear() #Génère une liste vide
+# # # del maListe[2]
+# # # del maListe #Supprime entierement ma liste
+# maListe.reverse()
+# # maListe.clear() #Génère une liste vide
 # print(maListe)
+
+
+# dictAges = {"Samir": 21 , "Najat" : 19 , "Elisa" : 20 , "Ahmed" : 18 , "Robert" : 21}
+# dictAges["Najat"] = 20
+# dictAges["Alma"] = 19
+# dictAges.pop("Robert")
+# for valeur in dictAges.values(): #n'affiche que les valerus
+#     print(valeur)
+# for clefs in dictAges.keys():
+#     print(clefs)
+
+# print(dictAges)
+
+
+
+# def produit(y, x):
+#     return x*y
+
+# print(produit(7, 8))
+
+# import math
+# print(math.fabs(-5))
+
+# name = input("Ecrivez votre nom : ")
+# print("Bienvenue " + name + " !")
+
+a = int(input("Entrez un nombre : "))
+b = int(input("Entrez un second nombre : "))
+c = a + b
+
+
+print("la somme de a et b est : " + str(c))
+
+
