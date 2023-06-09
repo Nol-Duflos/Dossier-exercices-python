@@ -172,14 +172,62 @@
 
 # nombre_entier(nombreUtilisateur = int(input("Entrez un nombre entier : ")))
 
-nombre_entier = None
-try:
-    nombre_entier = int(input("Entrez un nombre :  "))
-except ValueError:
-    print("\x1b[31m\x1b[46mJe t'avais dit d'entrer un nombre petit malin >:(\x1b[37m\x1b[0m")
+# nombre_entier = None
+# try:
+#     nombre_entier = int(input("Entrez un nombre :  "))
+# except ValueError:
+#     print("\x1b[31m\x1b[46mJe t'avais dit d'entrer un nombre petit malin >:(\x1b[37m\x1b[0m")
 
-if nombre_entier != None :
-    if (nombre_entier % 2) == 0:
-        print( str(nombre_entier)+" est pair")
-    else :
-        print( str(nombre_entier)+" est impair")
+# if nombre_entier != None :
+#     if (nombre_entier % 2) == 0:
+#         print( str(nombre_entier)+" est pair")
+#     else :
+#         print( str(nombre_entier)+" est impair")
+
+# x = int(input("Entrez un premier nombre : "))
+# y = int(input("Entrez un second nombre : "))
+# z = int(input("Entrez un troisième nombre : "))
+
+# d = [x, y, z ]
+# print("Le nombre le plus haut est", max(d))
+
+# n = int(input("Entrez un nombre entier : "))
+
+# somme = 0
+# for i in range(1, n + 1):
+#     somme = somme + i
+# print("La somme 1 + 2 +3 + ... +", n, " = : ", somme)
+
+def getFactors(n):
+    factors = []
+
+    for i in range(1, n + 1):
+        if n % i == 0:
+            factors.append(i)
+
+    return factors
+
+# n = int(input("Entrez un nombre entier : "))
+# print(getFactors(256))
+
+
+def get_liste(L, n):
+    somme = []
+
+    for i in L:
+        somme.append(n * i)
+
+    return somme
+
+# L = [3, 9, 5, 18 ]
+# n = 6
+# print(get_liste(L, n)) 
+
+def nombre_entier(nombreUtilisateur):
+    if nombreUtilisateur % 1 == 0:
+        print("Le nombre est pair ! :D")
+
+    else:
+        print("Le nombre est impair :)")
+
+nombre_entier(nombreUtilisateur = int(input("Entrez un nombre entier : ")))
