@@ -294,7 +294,21 @@
 
 # nums = [1, 2, 3, 4, 5, 6]
 # res= nums[::-1]
-# print(res[0])
+# print(res[2])
 
-sqs = [0, 1, 4, 9, 16, 25, 36, 49, 64]
-print(sqs[4:7])
+# sqs = [0, 1, 4, 9, 16, 25, 36, 49, 64]
+# print(sqs[4:7])
+
+# list = [1, 1, 2, 3, 5, 8, 13]
+# print(list[list[4]])
+
+# for i in range(10):
+#     if not i % 2 == 0:
+#         print(i+1)
+
+# x = input()
+# print(x[0:3])
+
+x = [6, 4, 2, 9]
+x = x[::-1]
+print(x[0]+x[2])
