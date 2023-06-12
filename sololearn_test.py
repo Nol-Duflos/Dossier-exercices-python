@@ -274,5 +274,13 @@
 # numbers = list(range(5, 20, 2))
 # print(numbers)
 
-nums = list(range(3, 15, 3))
-print(nums[2]) #On print le deuxième output dans la liste donnée en partant de 0
+# nums = list(range(3, 15, 3))
+# print(nums[2]) #On print le deuxième output dans la liste donnée en partant de 0
+
+# for i in range(0, 20, 2):
+#     print(i)
+
+a = int(input())
+b = int(input())
+annees = list(range(a, b))
+print(annees)
