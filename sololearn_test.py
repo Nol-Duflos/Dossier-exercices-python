@@ -309,6 +309,10 @@
 # x = input()
 # print(x[0:3])
 
-x = [6, 4, 2, 9]
-x = x[::-1]
-print(x[0]+x[2])
+# x = [6, 4, 2, 9]
+# x = x[::-1]
+# print(x[0]+x[2])
+
+N = int(input())
+print(sum(range(1,N+1)))
+print(sum(range(1, N+1)))
