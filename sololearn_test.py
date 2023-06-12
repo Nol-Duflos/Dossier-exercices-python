@@ -198,36 +198,81 @@
 #     somme = somme + i
 # print("La somme 1 + 2 +3 + ... +", n, " = : ", somme)
 
-def getFactors(n):
-    factors = []
+# def getFactors(n):
+    # factors = []
 
-    for i in range(1, n + 1):
-        if n % i == 0:
-            factors.append(i)
+    # for i in range(1, n + 1):
+    #     if n % i == 0:
+    #         factors.append(i)
 
-    return factors
+    # return factors
 
 # n = int(input("Entrez un nombre entier : "))
 # print(getFactors(256))
 
 
-def get_liste(L, n):
-    somme = []
+# def get_liste(L, n):
+#     somme = []
 
-    for i in L:
-        somme.append(n * i)
+#     for i in L:
+#         somme.append(n * i)
 
-    return somme
+#     return somme
 
-# L = [3, 9, 5, 18 ]
-# n = 6
-# print(get_liste(L, n)) 
+# # L = [3, 9, 5, 18 ]
+# # n = 6
+# # print(get_liste(L, n)) 
 
-def nombre_entier(nombreUtilisateur):
-    if nombreUtilisateur % 1 == 0:
-        print("Le nombre est pair ! :D")
+# def nombre_entier(nombreUtilisateur):
+#     if nombreUtilisateur % 1 == 0:
+#         print("Le nombre est pair ! :D")
 
-    else:
-        print("Le nombre est impair :)")
+#     else:
+#         print("Le nombre est impair :)")
 
-nombre_entier(nombreUtilisateur = int(input("Entrez un nombre entier : ")))
+# nombre_entier(nombreUtilisateur = int(input("Entrez un nombre entier : ")))
+
+# list = [2, 3, 4, 5, 6, 7]
+
+# for x in list:
+#     if(x%2==1 and x>4):
+#         print(x)
+#         break
+
+# x = [42, 8, 7, 1, 0, 124, 8897, 555, 3, 67, 99]
+# sum = 0
+
+# for num in x:
+#     sum += num
+# print(sum)
+
+# nums = [1, 2, 3, 4]
+# res = 0
+
+# for x in nums:
+#     if x %2 == 0:
+#         continue
+#     else:
+#         res += x
+
+# print(res)
+
+
+# numbers = [1, 2, 3]
+# total = 0
+
+# for n in numbers:
+#     total = total + n
+
+# print(total)
+
+# numbers = list(range(3, 8))
+# print(numbers)
+
+# print(range(20) == range(0,20))
+
+# numbers = list(range(5, 20, 2))
+# print(numbers)
+
+nums = list(range(3, 15, 3))
+print(nums[2]) #On print le deuxième output dans la liste donnée en partant de 0
