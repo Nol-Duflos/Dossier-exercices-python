@@ -280,7 +280,21 @@
 # for i in range(0, 20, 2):
 #     print(i)
 
-a = int(input())
-b = int(input())
-annees = list(range(a, b))
-print(annees)
+# a = int(input())
+# b = int(input())
+# annees = list(range(a, b))
+# print(annees)
+
+# squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+# print(squares[7:5:-1])
+
+# res = input("Enter a string of words : ")
+# liste = list(res[::-1])
+# print(liste[0])
+
+# nums = [1, 2, 3, 4, 5, 6]
+# res= nums[::-1]
+# print(res[0])
+
+sqs = [0, 1, 4, 9, 16, 25, 36, 49, 64]
+print(sqs[4:7])
